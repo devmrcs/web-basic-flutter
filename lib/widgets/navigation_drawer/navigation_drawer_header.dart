@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:web_begin/constants/app_colors.dart';
 
 class NavigationDrawerHeader extends StatelessWidget {
+  const NavigationDrawerHeader({Key key}) : super(key: key);
+
   @override
   Widget build(BuildContext context) {
     return Container(
